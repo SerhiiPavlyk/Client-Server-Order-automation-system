@@ -1,0 +1,116 @@
+﻿<Window x:Class="SE.Menu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SE"
+        mc:Ignorable="d"
+        Title="Menu" MinHeight="730" MinWidth="400" MaxHeight="750" MaxWidth="775" >
+    <Grid Background="#F0CEB4" >
+        <Grid.RowDefinitions >
+            <RowDefinition MinHeight="540" MaxHeight="540" />
+            <RowDefinition MinHeight="190" MaxHeight="210"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" VerticalAlignment="Top" HorizontalAlignment="Left" Background="#88D18A"  MinHeight="540" MinWidth="180" MaxHeight="550" MaxWidth="190" Margin="0,0,0,-32.5">
+            <Grid x:Name="leftpart" MinWidth="150" MaxWidth="190">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Image Grid.Row="0" Source="/Image/chicken.png" Stretch="Uniform" />
+                <Button Grid.Row ="0" x:Name="Chiken"  Content="{Binding Chiсken}" Style="{StaticResource Menu}" Click="Chiken_Click"/>
+                <Image Grid.Row="1" Source="/Image/Burgers.png" Stretch="Uniform" />
+                <Button Grid.Row ="1" x:Name="Burgers" Content="{Binding Burgers}" Style="{StaticResource Menu}" Click="Burgers_Click"/>
+                <Image Grid.Row="2" Source="/Image/Potato.png" Stretch="Uniform" />
+                <Button Grid.Row ="2" x:Name="Potato" Content="{Binding Potato}" Style="{StaticResource Menu}" Click="Potato_Click"/>
+                <Image Grid.Row="3" Source="/Image/Sauces.png" Stretch="Uniform" />
+                <Button Grid.Row ="3" x:Name="Sauces" Content="{Binding Sauces}" Style="{StaticResource Menu}" Click="Sauces_Click" />
+                <Image Grid.Row="4" Source="/Image/Desserts.png" Stretch="Uniform" />
+                <Button Grid.Row ="4" x:Name="Desserts" Content="{Binding Desserts}" Style="{StaticResource Menu}" Click="Desserts_Click" />
+                <Image Grid.Row="5" Source="/Image/Drinks.png" Stretch="Uniform" />
+                <Button Grid.Row ="5" x:Name="Drinks" Content="{Binding Drinks}" Style="{StaticResource Menu}" Click="Drinks_Click" />
+                <Image Grid.Row="6" Source="/Image/Coffee.png" Stretch="Uniform" />
+                <Button Grid.Row ="6" x:Name="Coffee" Content="{Binding Coffee}" Style="{StaticResource Menu}" Click="Coffee_Click" />
+            </Grid>
+        </StackPanel>
+        <Grid Grid.Row="0" x:Name="MenuDetail" MinHeight="540" MinWidth="585" MaxHeight="540" MaxWidth="590" Margin="178,0,0,-32.5" Background="White" VerticalAlignment="Top">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="195*"/>
+                <ColumnDefinition Width="195*"/>
+                <ColumnDefinition Width="157*"/>
+                <ColumnDefinition Width="39*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Row="0" Grid.Column="0">
+                <Image x:Name="IMG_Element00"/>
+                <Button x:Name="B_Element00_name" Content=" " Style="{StaticResource ElementMenu}" Margin="20" Click="B_Element00_name_Click"/>
+                <Label Name="price_Element00" Content=" " Style="{StaticResource price}"/>
+            </StackPanel>
+            <StackPanel Grid.Row="0" Grid.Column="1">
+                <Image x:Name="IMG_Element01"/>
+                <Button x:Name="B_Element01_name" Content=" " Style="{StaticResource ElementMenu}" Margin="20" Click="B_Element01_name_Click"/>
+                <Label Name="price_Element01" Content=" " Style="{StaticResource price}"/>
+            </StackPanel>
+            <StackPanel Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2">
+                <Image x:Name="IMG_Element02"/>
+                <Button x:Name="B_Element02_name" Content=" " Style="{StaticResource ElementMenu}" Margin="20" Click="B_Element02_name_Click"/>
+                <Label Name="price_Element02" Content=" " Style="{StaticResource price}"/>
+            </StackPanel>
+            <StackPanel Grid.Row="1" Grid.Column="0">
+                <Image x:Name="IMG_Element10"/>
+                <Button x:Name="B_Element10_name" Content=" " Style="{StaticResource ElementMenu}" Margin="20" Click="B_Element10_name_Click"/>
+                <Label Name="price_Element10" Content=" " Style="{StaticResource price}"/>
+            </StackPanel>
+            <StackPanel Grid.Row="1" Grid.Column="1">
+                <Image x:Name="IMG_Element11"/>
+                <Button x:Name="B_Element11_name" Content=" " Style="{StaticResource ElementMenu}" Margin="20" Click="B_Element11_name_Click"/>
+                <Label Name="price_Element11" Content=" " Style="{StaticResource price}"/>
+            </StackPanel>
+            <StackPanel Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2">
+                <Image x:Name="IMG_Element12"/>
+                <Button x:Name="B_Element12_name" Content=" " Style="{StaticResource ElementMenu}" Margin="20" Click="B_Element12_name_Click"/>
+                <Label Name="price_Element12" Content=" " Style="{StaticResource price}"/>
+            </StackPanel>
+            <StackPanel Grid.Row="2" Grid.Column="0">
+                <Image x:Name="IMG_Element20"/>
+                <Button x:Name="B_Element20_name" Content=" " Style="{StaticResource ElementMenu}" Margin="20" Click="B_Element20_name_Click"/>
+                <Label Name="price_Element20" Content=" " Style="{StaticResource price}"/>
+            </StackPanel>
+            <StackPanel Grid.Row="2" Grid.Column="1">
+                <Image x:Name="IMG_Element21"/>
+                <Button x:Name="B_Element21_name" Content=" " Style="{StaticResource ElementMenu}" Margin="20" Click="B_Element21_name_Click"/>
+                <Label Name="price_Element21" Content=" " Style="{StaticResource price}"/>
+            </StackPanel>
+            <StackPanel Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2">
+                <Image x:Name="IMG_Element22"/>
+                <Button x:Name="B_Element22_name" Content=" " Style="{StaticResource ElementMenu}" Margin="20" Click="B_Element22_name_Click"/>
+                <Label Name="price_Element22" Content=" " Style="{StaticResource price}"/>
+            </StackPanel>
+        </Grid>
+        <StackPanel Grid.Row="1" x:Name="BasketList" MinWidth="400" MaxWidth="765"  Background="AliceBlue" MinHeight="150" MaxHeight="360"  >
+            <Label x:Name="BasketL" Foreground="Black"/>
+            <ScrollViewer CanContentScroll="True" HorizontalScrollBarVisibility="Auto" Height="100">
+                <DockPanel >
+                    <Label Name="LdishName" Style="{StaticResource backet}"/>
+                    <Label Name="Lprice" Style="{StaticResource backet}"/>
+                    <Label Name="Lamount" Style="{StaticResource backet}"/>
+                </DockPanel>
+            </ScrollViewer >
+            <DockPanel >
+                <Label Name="totalprice" Style="{StaticResource total}"/>
+                <Label Name="Ltotalprice" HorizontalAlignment="Left" FontSize=" 25" Margin=" 50, 0, 0, 0" HorizontalContentAlignment = "Center" Foreground ="Black"/>
+                <Button x:Name="Done" Visibility="Hidden" Background="Green" FontSize="30" Click="Done_Click" HorizontalAlignment="Right" Margin="0,0,10,0" Width="100" Height="45"/>
+            </DockPanel>
+
+        </StackPanel>
+    </Grid>
+</Window>
