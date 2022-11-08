@@ -5,8 +5,37 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SE"
         mc:Ignorable="d"
-        Title="PreparingToPay" Height="450" Width="800">
-    <Grid>
+        Title="" MinHeight="550" MaxHeight="750" Width="800" Loaded="Window_Loaded">
+    <Grid Background="YellowGreen">
+        <Grid.RowDefinitions>
+            <RowDefinition MinHeight="50" MaxHeight="100"/>
+            <RowDefinition MinHeight="250" MaxHeight="400"/>
+            <RowDefinition MinHeight="175" MaxHeight="200"/>
+        </Grid.RowDefinitions>
+        <StackPanel  Grid.Row="0" >
+            <Label Name="Allright" FontSize="25" Foreground="White"/>
+            <Label Name="Where"  FontSize="18" Foreground="White"/>
+        </StackPanel>
         
+        <ScrollViewer Grid.Row="1" CanContentScroll="True" HorizontalScrollBarVisibility="Auto" Background="White">
+            <DockPanel >
+                <Label Name="LdishName" Style="{StaticResource allrightList}"/>
+                <Label Name="Lprice" Style="{StaticResource allrightList}" Margin="70,0,0,0"/>
+                <Label Name="Lamount" Style="{StaticResource allrightList}"/>
+            </DockPanel>
+        </ScrollViewer >
+        <StackPanel Grid.Row="2" >
+            <DockPanel >
+                <Label Name="Total" FontSize="18" Foreground="White"/>
+                <Label Name="Totalprice" FontSize="45" Foreground="White" Margin="40,0,0,0"/>
+            </DockPanel>
+            <DockPanel>
+                <Button x:Name="No" Background="Red" HorizontalAlignment="Left" FontSize="24" Height="70" Width="110" Margin="5,20,0,0" VerticalAlignment="Center" Click="No_Click"/>
+                <StackPanel >
+                    <Label Name="order" FontSize="34" Foreground="WhiteSmoke"  Visibility="Hidden" Style="{StaticResource total}"/>
+                </StackPanel>
+                <Button x:Name="Yes" Background="Green" HorizontalAlignment="Right" FontSize="24" Height="70" Width="110" Margin="0,20,5,0" VerticalAlignment="Center" Click="Yes_Click" />
+            </DockPanel>
+        </StackPanel>
     </Grid>
 </Window>

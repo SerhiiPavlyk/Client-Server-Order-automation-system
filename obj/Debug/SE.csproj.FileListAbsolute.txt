@@ -1,4 +1,3 @@
-C:\Users\МІ\Documents\!works\ІПЗ\SE\obj\Debug\SE.csproj.AssemblyReference.cache
 C:\Users\МІ\Documents\!works\ІПЗ\SE\obj\Debug\MainWindow.g.cs
 C:\Users\МІ\Documents\!works\ІПЗ\SE\obj\Debug\Menu.g.cs
 C:\Users\МІ\Documents\!works\ІПЗ\SE\obj\Debug\App.g.cs
@@ -27,3 +26,12 @@ C:\Users\МІ\Documents\!works\ІПЗ\SE\obj\Debug\SE.csproj.GenerateResource.ca
 C:\Users\МІ\Documents\!works\ІПЗ\SE\obj\Debug\SE.csproj.CoreCompileInputs.cache
 C:\Users\МІ\Documents\!works\ІПЗ\SE\obj\Debug\SE.exe
 C:\Users\МІ\Documents\!works\ІПЗ\SE\obj\Debug\SE.pdb
+C:\Users\МІ\Documents\!works\ІПЗ\SE\bin\Debug\MaterialDesignColors.dll
+C:\Users\МІ\Documents\!works\ІПЗ\SE\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\МІ\Documents\!works\ІПЗ\SE\bin\Debug\MaterialDesignColors.pdb
+C:\Users\МІ\Documents\!works\ІПЗ\SE\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\МІ\Documents\!works\ІПЗ\SE\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\МІ\Documents\!works\ІПЗ\SE\obj\Debug\SE.csproj.CopyComplete
+C:\Users\МІ\Documents\!works\ІПЗ\SE\obj\Debug\Pay.g.cs
+C:\Users\МІ\Documents\!works\ІПЗ\SE\obj\Debug\Pay.baml
+C:\Users\МІ\Documents\!works\ІПЗ\SE\obj\Debug\SE.csproj.AssemblyReference.cache

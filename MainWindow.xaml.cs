@@ -40,17 +40,16 @@ namespace SE
         {
             //false here
             Menu menu = new Menu(language, false);
-            this.Hide();
-            menu.ShowDialog();
-            this.Show();
+            Application.Current.MainWindow = this;
+            Close();
+            menu.Show();
         }
         private void Out_Click(object sender, RoutedEventArgs e)
         {
             // true - takeaway
             Menu menu = new Menu(language, true);
-            this.Hide();
-            menu.ShowDialog();
-            this.Show();
+            Close();
+            menu.Show();
         }
     }
 

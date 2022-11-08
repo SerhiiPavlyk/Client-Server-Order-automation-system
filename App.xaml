@@ -27,6 +27,7 @@
             <Setter Property="MaxHeight" Value="75"/>
         </Style>
         <Style TargetType="Button" x:Key="ElementMenu">
+            <Setter Property="Visibility" Value="Hidden"/>
             <Setter Property="FontSize" Value="10"/>
             <Setter Property="Background" Value= "Transparent"/>
             <Setter Property="Height" Value="45"/>
@@ -47,10 +48,39 @@
             <Setter Property="HorizontalContentAlignment" Value = "Center"/>
             <Setter Property="Foreground" Value="Black"/>
         </Style>
+        
+        <Style TargetType="Label" x:Key="allrightList" >
+            <Setter Property="FontSize" Value="17"/>
+            <Setter Property="HorizontalContentAlignment" Value = "Center"/>
+            <Setter Property="Foreground" Value="DarkGreen"/>
+        </Style>
         <Style TargetType="Label" x:Key="total" >
             <Setter Property="FontSize" Value="15"/>
             <Setter Property="HorizontalContentAlignment" Value = "Center"/>
             <Setter Property="Foreground" Value="Black"/>
         </Style>
+        <Style x:Key="card" TargetType="TextBox" >
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="LightGray"/>
+            <Setter Property="FontFamily" Value="Global Monospace"/>
+        </Style>
+        <Style x:Key="slash" TargetType="Label" >
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="LightGray"/>
+            <Setter Property="FontFamily" Value="Global Monospace"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+        </Style>
+        <!--PRIMARY-->
+            <SolidColorBrush x:Key="PrimaryHueLightBrush" Color="#FF3C64D2"/>
+            <SolidColorBrush x:Key="PrimaryHueLightForegroundBrush" Color="#333333"/>
+            <SolidColorBrush x:Key="PrimaryHueMidBrush" Color="#FF325AC8"/>
+            <SolidColorBrush x:Key="PrimaryHueMidForegroundBrush" Color="#FFFFFF"/>
+            <SolidColorBrush x:Key="PrimaryHueDarkBrush" Color="#FF2850BE"/>
+            <SolidColorBrush x:Key="PrimaryHueDarkForegroundBrush" Color="#FFFFFF"/>
+            <!--ACCENT-->
+            <SolidColorBrush x:Key="SecondaryAccentBrush" Color="#689f38"/>
+        <SolidColorBrush x:Key="SecondaryAccentForegroundBrush" Color="#FFFFFF"/>
     </Application.Resources>
 </Application>
