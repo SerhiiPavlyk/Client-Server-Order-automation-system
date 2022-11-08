@@ -1,0 +1,7 @@
+C:\Users\МІ\Documents\!works\ІПЗ\Server\bin\Debug\Server.exe.config
+C:\Users\МІ\Documents\!works\ІПЗ\Server\bin\Debug\Server.exe
+C:\Users\МІ\Documents\!works\ІПЗ\Server\bin\Debug\Server.pdb
+C:\Users\МІ\Documents\!works\ІПЗ\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+C:\Users\МІ\Documents\!works\ІПЗ\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\МІ\Documents\!works\ІПЗ\Server\obj\Debug\Server.exe
+C:\Users\МІ\Documents\!works\ІПЗ\Server\obj\Debug\Server.pdb
