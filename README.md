@@ -2,3 +2,5 @@
 >Client folder contains the client part of the project
 
 >Server folder contains the server part of the project
+
+> OrderAutomationSystem contains the mobile part of the project developed for IOS and Android.
