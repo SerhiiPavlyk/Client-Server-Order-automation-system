@@ -164,7 +164,7 @@ const Payment = ({ route }) => {
 const styles = StyleSheet.create({
 	button: {
 		marginTop: 10,
-		backgroundColor: '#cccccc',
+		backgroundColor: '#1f2ef2',
 		borderRadius: 8,
 		padding: 8,
 		width: 'fit-content',
@@ -185,12 +185,12 @@ const styles = StyleSheet.create({
 	},
 	container: {
 		flex: 1,
-		backgroundColor: '#EDEEF2',
+		backgroundColor: '#86ff4a',
 		alignItems: 'center',
 	},
 	card: {
 		marginTop: 20,
-		backgroundColor: '#3498db',
+		backgroundColor: '#a2a4bd',
 		borderRadius: 10,
 		padding: 20,
 		width: 300,

@@ -139,7 +139,7 @@ const Product = ({ route }) => {
 	};
 
 	return (
-		<SafeAreaView>
+		<SafeAreaView style={styles.container}>
 			<Modal visible={isModalOpen} animationType="slide">
 				<ScrollView>
 					<TouchableWithoutFeedback
@@ -283,7 +283,7 @@ export default Product;
 const styles = StyleSheet.create({
 	container: {
 		flex: 1,
-		backgroundColor: '#EDEEF2',
+		backgroundColor: '#86ff4a',
 		alignItems: 'center',
 	},
 	modalContainer: {
@@ -328,13 +328,13 @@ const styles = StyleSheet.create({
 	input: {
 		borderWidth: 1,
 		borderRadius: 5,
-		borderColor: '#6E83B4',
+		borderColor: '#1f2ef2',
 		padding: 8,
 		marginVertical: 10,
 		width: '100%',
 	},
 	item: {
-		backgroundColor: '#CDDAFA',
+		backgroundColor: '#f1fc4c',
 		width: 300,
 		padding: 15,
 		borderRadius: 8,

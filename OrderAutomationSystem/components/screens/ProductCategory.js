@@ -62,7 +62,7 @@ export default ProductCategory;
 const styles = StyleSheet.create({
 	container: {
 		flex: 1,
-		backgroundColor: '#EDEEF2',
+		backgroundColor: '#86ff4a',
 		alignItems: 'center',
 	},
 	modalContainer: {
@@ -89,17 +89,17 @@ const styles = StyleSheet.create({
 	input: {
 		borderWidth: 1,
 		borderRadius: 5,
-		borderColor: '#6E83B4',
+		borderColor: '#23C9FF',
 		padding: 8,
 		marginVertical: 10,
 		width: '100%',
 	},
 	item: {
-		backgroundColor: '#CDDAFA',
+		backgroundColor: '#86fccb',
 		width: 300,
 		padding: 15,
 		borderRadius: 8,
-		borderStyle: 'dashed',
+		borderStyle: 'dotted',
 		borderColor: '#6E83B4',
 		borderWidth: 1,
 		marginBottom: 10,

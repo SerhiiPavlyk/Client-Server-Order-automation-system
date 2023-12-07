@@ -106,7 +106,7 @@ export default Cart;
 const styles = StyleSheet.create({
 		container: {
 			flex: 1,
-			backgroundColor: '#EDEEF2',
+			backgroundColor: '#86ff4a',
 			alignItems: 'center',
 		},
 
@@ -118,14 +118,14 @@ const styles = StyleSheet.create({
 	input: {
 		borderWidth: 1,
 		borderRadius: 5,
-		borderColor: '#6E83B4',
+		borderColor: '#fffc57',
 		padding: 8,
 		marginVertical: 10,
 		width: '100%',
 	},
 	itemCart: {
 		marginTop: 7,
-		backgroundColor: '#CDDAFA',
+		backgroundColor: '#c5ff26',
 		width: 300,
 		padding: 8,
 		borderRadius: 8,
@@ -160,5 +160,6 @@ const styles = StyleSheet.create({
 		fontSize: 20,
 		fontWeight: '600',
 		textAlign: 'left',
+		backgroundColor: '#ff3a1c'
 	},
 });

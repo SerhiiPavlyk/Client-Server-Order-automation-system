@@ -26,7 +26,7 @@ export const CustomDeleteButton = ({ title, onPress }) => {
 const styles = StyleSheet.create({
 	button: {
 		marginTop: 10,
-		backgroundColor: '#7D8EB4',
+		backgroundColor: '#c2e038',
 		borderRadius: 8,
 		padding: 8,
 		width: 200,
@@ -35,10 +35,10 @@ const styles = StyleSheet.create({
 	},
 	buttonOutline: {
 		marginTop: 10,
-		backgroundColor: 'transparent',
+		backgroundColor: '#fa5078',
 		borderRadius: 8,
 		borderStyle: 'dashed',
-		borderColor: '#7D8EB4',
+		borderColor: '#c2e038',
 		borderWidth: 1,
 		padding: 8,
 		width: 200,
@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
 	},
 	buttonDelete: {
 		marginTop: 10,
-		backgroundColor: '#C33149',
+		backgroundColor: '#fca903',
 		borderRadius: 8,
 		borderColor: '#8B1E3F',
 		borderWidth: 1,

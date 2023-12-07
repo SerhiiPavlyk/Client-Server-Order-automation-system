@@ -71,7 +71,7 @@ export default Profile;
 const styles = StyleSheet.create({
 	container: {
 		flex: 1,
-		backgroundColor: '#EDEEF2',
+		backgroundColor: '#23C9FF',
 		alignItems: 'center',
 	},
 	userBox: {

@@ -139,7 +139,7 @@ const Login = ({ navigation, route }) => {
 							<Text style={styles.buttonText}>Eng</Text>
 						</TouchableOpacity>
 					</View>
-					<CustomButtonOutline title="Admin" onPress={() => setIsAuth(false)} />
+					<CustomButtonOutline title="Admin" onPress={() => setIsAuth(false)} backgroundColor = "#23C9FF"/>
 				</SafeAreaView>
 			) : (
 				<SafeAreaView style={styles.container}>
@@ -164,13 +164,13 @@ export default Login;
 const styles = StyleSheet.create({
 	container: {
 		flex: 1,
-		backgroundColor: '#EDEEF2',
+		backgroundColor: '#86ff4a',
 		alignItems: 'center',
 		justifyContent: 'center',
 	},
 	button: {
 		marginTop: 10,
-		backgroundColor: '#cccccc',
+		backgroundColor: '#7CC6FE',
 		borderRadius: 8,
 		padding: 8,
 		width: 'fit-content',
@@ -178,7 +178,7 @@ const styles = StyleSheet.create({
 	},
 	buttonActive: {
 		marginTop: 10,
-		backgroundColor: '#7D8EB4',
+		backgroundColor: '#C884A6',
 		borderRadius: 8,
 		padding: 8,
 		width: 'fit-content',
@@ -192,7 +192,7 @@ const styles = StyleSheet.create({
 	input: {
 		borderWidth: 1,
 		borderRadius: 5,
-		borderColor: '#6E83B4',
+		borderColor: '#7CC6FE',
 		padding: 8,
 		margin: 10,
 		width: 200,
