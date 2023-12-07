@@ -1,6 +1,6 @@
-# Storage
+# OrderAutomationSystem
 
-The "Storage" project is a mobile application developed using React Native and integrated with a Firebase database. This system is designed for efficient inventory management of goods in a warehouse or storage facility.
+The "OrderAutomationSystem" project is a mobile application developed using React Native and integrated with a Firebase database. This system is designed for organization of quick orders in food establishments.
 
 ## Getting Started
 
